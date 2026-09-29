@@ -1,0 +1,172 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+ 
+body{
+    font-family: "Calibri", Helvetica, sans-serif;
+}
+ 
+header{
+    width: 100%;
+    background-color: #25b4ce;
+    position: fixed;
+}
+ 
+#logo{
+    margin-top:  15px;
+    margin-left: 15px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    float: left;
+}
+ 
+nav{
+    font-size: 19px;
+    height: 70px;
+}
+ 
+nav ul{
+    list-style-type: none;
+}
+ 
+nav ul li{
+    float: left;
+    margin-left: 15px;
+    padding: 5px 10px;/* Espaçamento interno*/
+    font-weight: bold;
+    line-height: 3.5;
+    color: white;
+}
+ 
+nav ul .BOTAO:hover{
+    background-color: rgba(255, 255, 255, 0.2);
+}
+ 
+#banner{
+    padding-top: 70px;
+}
+ 
+ 
+ 
+/*#### CONTEÚDO #### */
+ 
+main{
+    width: 1000px;
+    margin: 0 auto;
+ 
+}
+ 
+article{
+    text-align: justify;
+ 
+}
+ 
+.fotoshome{
+    width: 50%;
+    float: left;
+    text-align: center;
+    margin-bottom: 10px;
+   
+}
+ 
+footer{
+    width: 100%;
+    background-color: #25b4ce;
+    text-align: center;
+    color: white;
+    padding: 60px 0px;
+    clear: both;
+    float: left;
+}
+ 
+/* #### sobre #####*/
+ 
+.fotosobre{
+    width: 20%;
+    height: 160px;
+    float: left;
+}
+ 
+.textosobre{
+    width: 80%;
+    height: 160px;
+    float: left;
+}
+ 
+ 
+/*#### contato ####*/
+ 
+#mapa{
+    padding-top: 70px;
+}
+ 
+.info{
+    width: 50%;
+    height: auto;
+    margin: 50px 0px;
+    float: left;
+}
+ 
+#formulario{
+    width: 45%;
+    float: right;
+    margin: 50px 0px;
+}
+ 
+#formulario label{
+    font-size: 18px;
+}
+ 
+#formulario div input{
+    width: 100%;
+    height: 25px;
+    background-color: #25b4ce;
+    border: 1px solid #25b4ce;
+ 
+}
+ 
+#formulario textarea{
+    width: 100%;
+    height: 70px;
+    background-color: #25b4ce;
+    border: 1px solid #0a8499;
+ 
+}
+ 
+#formulario .BOTAO{
+    width: 100px;
+    height: 30px;
+    color: white;
+    font-size: 14px;
+    float: right;
+    border-radius: 5px;
+    margin: 15px 0px 20px 15px;
+}
+ 
+#LIMPAR{
+    background-color: darkred;
+}
+ 
+#ENVIAR{
+     background-color: darkgreen;
+}
+ 
+ 
+#formulario h2{
+    text-align: center;
+    color: #2cd8f7;
+    margin:40px 0px;
+}
+
+/* #### GALERIA #### */
+
+.galeria{
+    text-align: center;
+
+}
+ 
+.galeria img{
+    padding: 10px;
+}
+ 
